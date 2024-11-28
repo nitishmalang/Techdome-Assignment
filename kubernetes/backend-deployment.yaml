@@ -14,7 +14,8 @@ spec:
     spec:
       containers:
         - name: backend
-          image: techdome-assignment-backend:latest  
+          image: techdome-assignment-backend:latest
+          ports:
             - containerPort: 5000
           env:
             - name: MONGO_URI
